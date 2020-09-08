@@ -1,0 +1,1 @@
+sbatch scripts/slurm-run-gputest.sh scripts/run-JOBGEN.sh data/bc2gm-corpus/combined-data/conll-wide/ /scratch/project_2001426/models/biobert_large 4 5e-5 288 5 "bc2gm_conn_wide_biobert_larger_max_seq_len" bc2gm_conn_wide_biobert_larger_max_seq_len_1 devel.tsv

@@ -1,0 +1,11 @@
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/s800/conll/ /scratch/project_2001426/models/NCBI_BERT_pubmed_uncased_L-24_H-1024_A-16 8 5e-5 192 4 "s800 modeltryout 2" NCBI_uncased_L24s800_1
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/s800/conll/ /scratch/project_2001426/models/scibert_scivocab_cased 8 5e-5 192 4 "s800 modeltryout 2" scibert_caseds800_1
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/s800/conll/ /scratch/project_2001426/models/biobert_v1.1_pubmed_std_naming 8 5e-5 192 4 "s800 modeltryout 2" biobert_pubmeds800_1
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/s800/conll/ /scratch/project_2001426/models/biobert_v1.0_pubmed_pmc 8 5e-5 192 4 "s800 modeltryout 2" biobert_pubmed_pmcs800_1
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/s800/conll/ /scratch/project_2001426/models/uncased_L-24_H-1024_A-16 8 5e-5 192 4 "s800 modeltryout 2" uncased_L24s800_1
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/s800/conll/ /scratch/project_2001426/models/scibert_scivocab_uncased 8 5e-5 192 4 "s800 modeltryout 2" scibert_uncaseds800_1
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/s800/conll/ /scratch/project_2001426/models/cased_L-12_H-768_A-12 8 5e-5 192 4 "s800 modeltryout 2" cased_L12s800_1
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/s800/conll/ /scratch/project_2001426/models/wwm_cased_L-24_H-1024_A-16 8 5e-5 192 4 "s800 modeltryout 2" wwm_cased_L24s800_1
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/s800/conll/ /scratch/project_2001426/models/uncased_L-12_H-768_A-12 8 5e-5 192 4 "s800 modeltryout 2" uncased_L12s800_1
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/s800/conll/ /scratch/project_2001426/models/biobert_large 8 5e-5 192 4 "s800 modeltryout 2" biobert_larges800_1
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/s800/conll/ /scratch/project_2001426/models/NCBI_BERT_pubmed_uncased_L-12_H-768_A-12 8 5e-5 192 4 "s800 modeltryout 2" NCBI_uncased_L12s800_1

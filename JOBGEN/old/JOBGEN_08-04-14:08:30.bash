@@ -1,0 +1,9 @@
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-narrow/ /scratch/project_2001426/models/biobert_large 6 5e-5 112 5 "bc2gm_maybe_last" ParHyper1121
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-narrow/ /scratch/project_2001426/models/biobert_large 12 5e-5 112 5 "bc2gm_maybe_last" ParHyper1122
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-narrow/ /scratch/project_2001426/models/biobert_large 14 5e-5 112 5 "bc2gm_maybe_last" ParHyper1123
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-narrow/ /scratch/project_2001426/models/biobert_large 6 5e-5 128 5 "bc2gm_maybe_last" ParHyper1124
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-narrow/ /scratch/project_2001426/models/biobert_large 12 5e-5 128 5 "bc2gm_maybe_last" ParHyper1125
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-narrow/ /scratch/project_2001426/models/biobert_large 14 5e-5 128 5 "bc2gm_maybe_last" ParHyper1126
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-narrow/ /scratch/project_2001426/models/biobert_large 6 5e-5 144 5 "bc2gm_maybe_last" ParHyper1127
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-narrow/ /scratch/project_2001426/models/biobert_large 12 5e-5 144 5 "bc2gm_maybe_last" ParHyper1128
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-narrow/ /scratch/project_2001426/models/biobert_large 14 5e-5 144 5 "bc2gm_maybe_last" ParHyper1129

@@ -1,0 +1,1 @@
+sbatch scripts/slurm-run-gputest.sh scripts/run-JOBGEN.sh data/bc2gm-corpus/combined-data/conll-wide/ /scratch/project_2001426/models/biobert_large 4 5e-5 426 5 "chemdner_426_458_seeking_f1" chemdner_426_458_seeking_f1_1 devel.tsv

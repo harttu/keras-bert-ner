@@ -1,0 +1,4 @@
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-wide/ /scratch/project_2001426/models/scibert_scivocab_cased 8 5e-5 192 4 "bc2g with 4 epoch wide dataset larger maxSeqLen" scibert_cased
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-wide/ /scratch/project_2001426/models/biobert_v1.1_pubmed_std_naming 8 5e-5 192 4 "bc2g with 4 epoch wide dataset larger maxSeqLen" biobert_pubmed
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-wide/ /scratch/project_2001426/models/biobert_v1.0_pubmed_pmc 8 5e-5 192 4 "bc2g with 4 epoch wide dataset larger maxSeqLen" biobert_pubmed_pmc
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-wide/ /scratch/project_2001426/models/biobert_large 8 5e-5 192 4 "bc2g with 4 epoch wide dataset larger maxSeqLen" biobert_large

@@ -1,0 +1,1 @@
+sbatch scripts/slurm-run-gputest.sh scripts/run-bc2gm.sh data/ncbi-disease/conll/ /scratch/project_2001426/models/biobert_v1.1_pubmed_std_naming 6 5e-5 160 5 "ncbi_dis_hyp_op_1" ncbi_dis_hyp_op_1_1_debug_

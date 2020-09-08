@@ -1,0 +1,1 @@
+sbatch scripts/slurm-run-gputest.sh scripts/run-JOBGEN.sh /data/chemdner-corpora/conll /scratch/project_2001426/models/biobert_v1.1_pubmed_std_naming 4 5e-5 256 5 "chemdner_hyp_par_biobert_added_320beyondMSL" chemdner_hyp_par_biobert_added_320beyondMSL_1 devel.tsv

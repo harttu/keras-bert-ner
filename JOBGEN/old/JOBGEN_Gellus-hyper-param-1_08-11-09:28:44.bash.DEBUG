@@ -1,0 +1,1 @@
+sbatch scripts/slurm-run-gputest.sh scripts/run-JOBGEN.sh data/GELLUS-1.0.3/conll/standard/ /scratch/project_2001426/models/biobert_v1.1_pubmed_std_naming 8 5e-5 256 5 "Gellus-hyper-param-1" Gellus-hyper-param-1_1 devel.tsv

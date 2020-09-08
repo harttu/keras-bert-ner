@@ -1,0 +1,1 @@
+sbatch scripts/slurm-run-gputest.sh scripts/run-JOBGEN.sh data/GELLUS-1.0.3/conll/standard/ /scratch/project_2001426/models/NCBI_BERT_pubmed_uncased_L-24_H-1024_A-16 8 5e-5 128 3 "Gellus-1" Gellus-1_1 test.tsv

@@ -1,0 +1,10 @@
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-wide/ /scratch/project_2001426/models/NCBI_BERT_pubmed_uncased_L-24_H-1024_A-16 8 5e-5 128 2 "bc2g with 2 epoch wide dataset" NCBI_uncased_L24
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-wide/ /scratch/project_2001426/models/biobert_v1.1_pubmed_std_naming 8 5e-5 128 2 "bc2g with 2 epoch wide dataset" biobert_pubmed
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-wide/ /scratch/project_2001426/models/biobert_v1.0_pubmed_pmc 8 5e-5 128 2 "bc2g with 2 epoch wide dataset" biobert_pubmed_pmc
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-wide/ /scratch/project_2001426/models/uncased_L-24_H-1024_A-16 8 5e-5 128 2 "bc2g with 2 epoch wide dataset" uncased_L24
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-wide/ /scratch/project_2001426/models/scibert_scivocab_uncased 8 5e-5 128 2 "bc2g with 2 epoch wide dataset" scibert_uncased
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-wide/ /scratch/project_2001426/models/cased_L-12_H-768_A-12 8 5e-5 128 2 "bc2g with 2 epoch wide dataset" cased_L12
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-wide/ /scratch/project_2001426/models/wwm_cased_L-24_H-1024_A-16 8 5e-5 128 2 "bc2g with 2 epoch wide dataset" wwm_cased_L24
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-wide/ /scratch/project_2001426/models/uncased_L-12_H-768_A-12 8 5e-5 128 2 "bc2g with 2 epoch wide dataset" uncased_L12
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-wide/ /scratch/project_2001426/models/biobert_large 8 5e-5 128 2 "bc2g with 2 epoch wide dataset" biobert_large
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-wide/ /scratch/project_2001426/models/NCBI_BERT_pubmed_uncased_L-12_H-768_A-12 8 5e-5 128 2 "bc2g with 2 epoch wide dataset" NCBI_uncased_L12

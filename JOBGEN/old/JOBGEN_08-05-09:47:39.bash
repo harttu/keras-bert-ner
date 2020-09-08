@@ -1,0 +1,15 @@
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/s800/conll/ /scratch/project_2001426/models/biobert_v1.1_pubmed_std_naming 8 5e-5 32 5 "s800_biobert_hypop_1" s800_hypop_11
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/s800/conll/ /scratch/project_2001426/models/biobert_v1.1_pubmed_std_naming 32 5e-5 32 5 "s800_biobert_hypop_1" s800_hypop_12
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/s800/conll/ /scratch/project_2001426/models/biobert_v1.1_pubmed_std_naming 64 5e-5 32 5 "s800_biobert_hypop_1" s800_hypop_13
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/s800/conll/ /scratch/project_2001426/models/biobert_v1.1_pubmed_std_naming 8 5e-5 64 5 "s800_biobert_hypop_1" s800_hypop_14
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/s800/conll/ /scratch/project_2001426/models/biobert_v1.1_pubmed_std_naming 32 5e-5 64 5 "s800_biobert_hypop_1" s800_hypop_15
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/s800/conll/ /scratch/project_2001426/models/biobert_v1.1_pubmed_std_naming 64 5e-5 64 5 "s800_biobert_hypop_1" s800_hypop_16
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/s800/conll/ /scratch/project_2001426/models/biobert_v1.1_pubmed_std_naming 8 5e-5 128 5 "s800_biobert_hypop_1" s800_hypop_17
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/s800/conll/ /scratch/project_2001426/models/biobert_v1.1_pubmed_std_naming 32 5e-5 128 5 "s800_biobert_hypop_1" s800_hypop_18
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/s800/conll/ /scratch/project_2001426/models/biobert_v1.1_pubmed_std_naming 64 5e-5 128 5 "s800_biobert_hypop_1" s800_hypop_19
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/s800/conll/ /scratch/project_2001426/models/biobert_v1.1_pubmed_std_naming 8 5e-5 192 5 "s800_biobert_hypop_1" s800_hypop_110
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/s800/conll/ /scratch/project_2001426/models/biobert_v1.1_pubmed_std_naming 32 5e-5 192 5 "s800_biobert_hypop_1" s800_hypop_111
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/s800/conll/ /scratch/project_2001426/models/biobert_v1.1_pubmed_std_naming 64 5e-5 192 5 "s800_biobert_hypop_1" s800_hypop_112
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/s800/conll/ /scratch/project_2001426/models/biobert_v1.1_pubmed_std_naming 8 5e-5 256 5 "s800_biobert_hypop_1" s800_hypop_113
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/s800/conll/ /scratch/project_2001426/models/biobert_v1.1_pubmed_std_naming 32 5e-5 256 5 "s800_biobert_hypop_1" s800_hypop_114
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/s800/conll/ /scratch/project_2001426/models/biobert_v1.1_pubmed_std_naming 64 5e-5 256 5 "s800_biobert_hypop_1" s800_hypop_115

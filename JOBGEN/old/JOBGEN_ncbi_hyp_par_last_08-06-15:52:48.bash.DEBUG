@@ -1,0 +1,1 @@
+sbatch scripts/slurm-run-gputest.sh scripts/run-JOBGEN.sh data/ncbi-disease/conll/ /scratch/project_2001426/models/biobert_v1.1_pubmed_std_naming 8 5e-5 128 5 "ncbi_hyp_par_last" ncbi_hyp_par_last_1 devel.tsv

@@ -1,0 +1,1 @@
+sbatch scripts/slurm-run-gputest.sh scripts/run-bc2gm.sh /data/chemdner-corpora/conll /scratch/project_2001426/models/scibert_scivocab_cased 8 5e-5 192 5 "chemdner_2_hyp_op" chemdner_2_hyp_op_1_debug_

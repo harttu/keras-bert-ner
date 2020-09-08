@@ -1,0 +1,9 @@
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-narrow/ /scratch/project_2001426/models/biobert_large 8 5e-5 96 5 "Hyperparameter experiment 2" ParHyperAround1281
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-narrow/ /scratch/project_2001426/models/biobert_large 16 5e-5 96 5 "Hyperparameter experiment 2" ParHyperAround1282
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-narrow/ /scratch/project_2001426/models/biobert_large 32 5e-5 96 5 "Hyperparameter experiment 2" ParHyperAround1283
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-narrow/ /scratch/project_2001426/models/biobert_large 8 5e-5 128 5 "Hyperparameter experiment 2" ParHyperAround1284
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-narrow/ /scratch/project_2001426/models/biobert_large 16 5e-5 128 5 "Hyperparameter experiment 2" ParHyperAround1285
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-narrow/ /scratch/project_2001426/models/biobert_large 32 5e-5 128 5 "Hyperparameter experiment 2" ParHyperAround1286
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-narrow/ /scratch/project_2001426/models/biobert_large 8 5e-5 160 5 "Hyperparameter experiment 2" ParHyperAround1287
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-narrow/ /scratch/project_2001426/models/biobert_large 16 5e-5 160 5 "Hyperparameter experiment 2" ParHyperAround1288
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/bc2gm-corpus/combined-data/conll-narrow/ /scratch/project_2001426/models/biobert_large 32 5e-5 160 5 "Hyperparameter experiment 2" ParHyperAround1289

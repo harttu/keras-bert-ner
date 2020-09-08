@@ -1,0 +1,1 @@
+sbatch scripts/slurm-run-gputest.sh scripts/run-JOBGEN.sh /data/chemdner-corpora/conll /scratch/project_2001426/models/NCBI_BERT_pubmed_uncased_L-24_H-1024_A-16 8 5e-5 128 3 "chemdner_larger_models_again" chemdner_larger_models_again_1 test.tsv

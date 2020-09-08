@@ -1,0 +1,11 @@
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/ncbi-disease/conll/ /scratch/project_2001426/models/NCBI_BERT_pubmed_uncased_L-24_H-1024_A-16 8 5e-5 192 4 "asdd" asdd_1
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/ncbi-disease/conll/ /scratch/project_2001426/models/scibert_scivocab_cased 8 5e-5 192 4 "asdd" asdd_2
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/ncbi-disease/conll/ /scratch/project_2001426/models/biobert_v1.1_pubmed_std_naming 8 5e-5 192 4 "asdd" asdd_3
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/ncbi-disease/conll/ /scratch/project_2001426/models/biobert_v1.0_pubmed_pmc 8 5e-5 192 4 "asdd" asdd_4
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/ncbi-disease/conll/ /scratch/project_2001426/models/uncased_L-24_H-1024_A-16 8 5e-5 192 4 "asdd" asdd_5
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/ncbi-disease/conll/ /scratch/project_2001426/models/scibert_scivocab_uncased 8 5e-5 192 4 "asdd" asdd_6
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/ncbi-disease/conll/ /scratch/project_2001426/models/cased_L-12_H-768_A-12 8 5e-5 192 4 "asdd" asdd_7
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/ncbi-disease/conll/ /scratch/project_2001426/models/wwm_cased_L-24_H-1024_A-16 8 5e-5 192 4 "asdd" asdd_8
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/ncbi-disease/conll/ /scratch/project_2001426/models/uncased_L-12_H-768_A-12 8 5e-5 192 4 "asdd" asdd_9
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/ncbi-disease/conll/ /scratch/project_2001426/models/biobert_large 8 5e-5 192 4 "asdd" asdd_10
+sbatch scripts/slurm-run.sh scripts/run-bc2gm.sh data/ncbi-disease/conll/ /scratch/project_2001426/models/NCBI_BERT_pubmed_uncased_L-12_H-768_A-12 8 5e-5 192 4 "asdd" asdd_11
