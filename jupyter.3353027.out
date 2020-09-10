@@ -1,0 +1,95 @@
+[I 10:55:24.547 NotebookApp] The port 8888 is already in use, trying another port.
+[I 10:55:24.613 NotebookApp] JupyterLab extension loaded from /appl/soft/ai/miniconda3/envs/tensorflow-1.14.0/lib/python3.7/site-packages/jupyterlab
+[I 10:55:24.613 NotebookApp] JupyterLab application directory is /appl/soft/ai/miniconda3/envs/tensorflow-1.14.0/share/jupyter/lab
+[I 10:55:24.615 NotebookApp] Serving notebooks from local directory: /users/htoivone/keras-bert-ner
+[I 10:55:24.615 NotebookApp] The Jupyter Notebook is running at:
+[I 10:55:24.615 NotebookApp] http://localhost:8889/?token=778ac7f77ad7b7481d8f451c3282ad25bed5b5195b4b2948
+[I 10:55:24.615 NotebookApp]  or http://127.0.0.1:8889/?token=778ac7f77ad7b7481d8f451c3282ad25bed5b5195b4b2948
+[I 10:55:24.615 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 10:55:24.620 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///users/htoivone/.local/share/jupyter/runtime/nbserver-63953-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=778ac7f77ad7b7481d8f451c3282ad25bed5b5195b4b2948
+     or http://127.0.0.1:8889/?token=778ac7f77ad7b7481d8f451c3282ad25bed5b5195b4b2948
+[I 10:56:16.196 NotebookApp] 302 GET /?token=778ac7f77ad7b7481d8f451c3282ad25bed5b5195b4b2948 (127.0.0.1) 0.50ms
+[E 10:56:16.388 NotebookApp] Could not open static file ''
+[I 10:56:16.437 NotebookApp] Saving file at /ner_notebook.ipynb
+[W 10:56:17.252 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (127.0.0.1) 6.76ms referer=http://localhost:8889/tree?token=778ac7f77ad7b7481d8f451c3282ad25bed5b5195b4b2948
+[W 10:56:27.154 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (127.0.0.1) 1.18ms referer=http://localhost:8889/notebooks/ner_notebook.ipynb
+[W 10:56:28.335 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (127.0.0.1) 1.34ms referer=http://localhost:8889/notebooks/ner_notebook.ipynb
+[I 10:56:35.165 NotebookApp] Kernel started: abcff554-a7e3-4690-9371-1c95acca10cb
+[I 10:56:35.794 NotebookApp] Adapting from protocol version 5.1 (kernel abcff554-a7e3-4690-9371-1c95acca10cb) to 5.3 (client).
+[W 10:56:36.365 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20200909105524 (127.0.0.1) 1.77ms referer=http://localhost:8889/notebooks/ner_notebook.ipynb
+[W 10:57:03.756 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (127.0.0.1) 1.20ms referer=http://localhost:8889/tree?token=778ac7f77ad7b7481d8f451c3282ad25bed5b5195b4b2948
+[W 10:57:04.305 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (127.0.0.1) 1.26ms referer=http://localhost:8889/tree?token=778ac7f77ad7b7481d8f451c3282ad25bed5b5195b4b2948
+[W 10:57:07.471 NotebookApp] Forbidden
+[W 10:57:07.471 NotebookApp] 403 GET /api/config/tree?_=1599638225085 (127.0.0.1) 0.84ms referer=http://localhost:8889/tree
+[W 10:57:07.540 NotebookApp] Forbidden
+[W 10:57:07.541 NotebookApp] 403 GET /api/config/common?_=1599638225086 (127.0.0.1) 0.65ms referer=http://localhost:8889/tree
+[W 10:57:07.744 NotebookApp] Forbidden
+[W 10:57:07.745 NotebookApp] 403 GET /api/terminals?_=1599638225087 (127.0.0.1) 0.60ms referer=http://localhost:8889/tree
+[W 10:57:07.785 NotebookApp] Forbidden
+[W 10:57:07.786 NotebookApp] 403 GET /api/kernelspecs (127.0.0.1) 0.56ms referer=http://localhost:8889/tree
+[W 10:57:07.865 NotebookApp] Forbidden
+[W 10:57:07.865 NotebookApp] 403 GET /api/sessions?_=1599638225088 (127.0.0.1) 0.54ms referer=http://localhost:8889/tree
+[W 10:57:07.920 NotebookApp] Forbidden
+[W 10:57:07.920 NotebookApp] 403 GET /api/terminals?_=1599638225089 (127.0.0.1) 0.48ms referer=http://localhost:8889/tree
+[I 10:58:35.401 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 11:00:35.401 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 11:02:35.446 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 11:06:35.381 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 11:08:33.054 NotebookApp] Creating new notebook in 
+[W 11:08:34.360 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (127.0.0.1) 1.90ms referer=http://localhost:8889/notebooks/Untitled1.ipynb?kernel_name=venv
+[W 11:08:35.214 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (127.0.0.1) 1.28ms referer=http://localhost:8889/notebooks/Untitled1.ipynb?kernel_name=venv
+[I 11:08:39.268 NotebookApp] Kernel started: 9bcc390b-a4e2-4a13-9286-3394519fbb81
+[W 11:08:39.899 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20200909105524 (127.0.0.1) 1.80ms referer=http://localhost:8889/notebooks/Untitled1.ipynb?kernel_name=venv
+[I 11:08:39.924 NotebookApp] Adapting from protocol version 5.1 (kernel 9bcc390b-a4e2-4a13-9286-3394519fbb81) to 5.3 (client).
+[I 11:09:45.892 NotebookApp] Starting buffering for abcff554-a7e3-4690-9371-1c95acca10cb:3dab72fd649f4f5f89b967e00e6c136b
+[I 11:10:39.531 NotebookApp] Saving file at /Untitled1.ipynb
+[I 11:18:39.671 NotebookApp] Saving file at /Untitled1.ipynb
+[I 11:26:39.859 NotebookApp] Saving file at /Untitled1.ipynb
+[I 11:28:39.506 NotebookApp] Saving file at /Untitled1.ipynb
+[I 11:30:39.501 NotebookApp] Saving file at /Untitled1.ipynb
+[I 11:32:39.524 NotebookApp] Saving file at /Untitled1.ipynb
+[I 11:34:39.480 NotebookApp] Saving file at /Untitled1.ipynb
+[I 11:38:39.550 NotebookApp] Saving file at /Untitled1.ipynb
+[I 11:40:39.520 NotebookApp] Saving file at /Untitled1.ipynb
+[I 11:42:39.572 NotebookApp] Saving file at /Untitled1.ipynb
+[I 11:44:39.490 NotebookApp] Saving file at /Untitled1.ipynb
+[I 11:48:39.564 NotebookApp] Saving file at /Untitled1.ipynb
+[I 11:50:39.548 NotebookApp] Saving file at /Untitled1.ipynb
+[I 11:54:39.762 NotebookApp] Saving file at /Untitled1.ipynb
+[I 11:56:39.766 NotebookApp] Saving file at /Untitled1.ipynb
+[I 12:12:40.085 NotebookApp] Saving file at /Untitled1.ipynb
+[I 12:14:40.137 NotebookApp] Saving file at /Untitled1.ipynb
+[I 12:16:40.074 NotebookApp] Saving file at /Untitled1.ipynb
+[I 12:18:39.945 NotebookApp] Saving file at /Untitled1.ipynb
+[I 12:26:39.981 NotebookApp] Saving file at /Untitled1.ipynb
+[I 12:27:23.934 NotebookApp] Saving file at /Untitled1.ipynb
+[I 12:28:39.957 NotebookApp] Saving file at /Untitled1.ipynb
+[I 12:36:40.172 NotebookApp] Saving file at /Untitled1.ipynb
+[I 13:22:40.006 NotebookApp] Saving file at /Untitled1.ipynb
+[I 13:28:40.150 NotebookApp] Saving file at /Untitled1.ipynb
+[I 13:30:40.005 NotebookApp] Saving file at /Untitled1.ipynb
+[I 13:38:14.471 NotebookApp] Starting buffering for 9bcc390b-a4e2-4a13-9286-3394519fbb81:e348839cc20e45fa8ab81a631275cfa1
+[I 13:38:20.350 NotebookApp] Kernel restarted: 9bcc390b-a4e2-4a13-9286-3394519fbb81
+[I 13:38:37.358 NotebookApp] Adapting from protocol version 5.1 (kernel 9bcc390b-a4e2-4a13-9286-3394519fbb81) to 5.3 (client).
+[I 13:38:37.358 NotebookApp] Restoring connection for 9bcc390b-a4e2-4a13-9286-3394519fbb81:e348839cc20e45fa8ab81a631275cfa1
+[I 13:38:37.358 NotebookApp] Replaying 10 buffered messages
+[I 13:38:40.012 NotebookApp] Saving file at /Untitled1.ipynb
+[I 13:40:15.421 NotebookApp] Starting buffering for 9bcc390b-a4e2-4a13-9286-3394519fbb81:e348839cc20e45fa8ab81a631275cfa1
+[I 13:40:20.577 NotebookApp] Kernel restarted: 9bcc390b-a4e2-4a13-9286-3394519fbb81
+[I 13:40:21.323 NotebookApp] Adapting from protocol version 5.1 (kernel 9bcc390b-a4e2-4a13-9286-3394519fbb81) to 5.3 (client).
+[I 13:40:21.323 NotebookApp] Restoring connection for 9bcc390b-a4e2-4a13-9286-3394519fbb81:e348839cc20e45fa8ab81a631275cfa1
+[I 13:40:21.323 NotebookApp] Replaying 3 buffered messages
+[I 13:40:39.962 NotebookApp] Saving file at /Untitled1.ipynb
+2020-09-09 13:41:51.078628: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+2020-09-09 13:41:51.540293: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2100000000 Hz
+2020-09-09 13:41:51.540769: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55d5966b6320 executing computations on platform Host. Devices:
+2020-09-09 13:41:51.540785: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-09-09 13:41:51.542055: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /appl/spack/install-tree/gcc-4.8.5/gcc-7.4.0-l7gbl5/lib64:/appl/spack/install-tree/gcc-4.8.5/gcc-7.4.0-l7gbl5/lib
+2020-09-09 13:41:51.542076: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: UNKNOWN ERROR (303)
+2020-09-09 13:41:51.559390: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (r07c49.bullx): /proc/driver/nvidia/version does not exist
+2020-09-09 13:41:52.258087: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.

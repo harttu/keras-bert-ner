@@ -1,0 +1,38 @@
+[I 08:21:02.743 NotebookApp] JupyterLab extension loaded from /appl/soft/ai/miniconda3/envs/python-data-3.7.3-1/lib/python3.7/site-packages/jupyterlab
+[I 08:21:02.743 NotebookApp] JupyterLab application directory is /appl/soft/ai/miniconda3/envs/python-data-3.7.3-1/share/jupyter/lab
+[I 08:21:02.745 NotebookApp] Serving notebooks from local directory: /users/htoivone/keras-bert-ner
+[I 08:21:02.745 NotebookApp] The Jupyter Notebook is running at:
+[I 08:21:02.745 NotebookApp] http://localhost:8888/?token=c227d4a7f6067cf994790f98c2ffd3e77ba6b075470452c0
+[I 08:21:02.745 NotebookApp]  or http://127.0.0.1:8888/?token=c227d4a7f6067cf994790f98c2ffd3e77ba6b075470452c0
+[I 08:21:02.745 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 08:21:02.763 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///users/htoivone/.local/share/jupyter/runtime/nbserver-46691-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=c227d4a7f6067cf994790f98c2ffd3e77ba6b075470452c0
+     or http://127.0.0.1:8888/?token=c227d4a7f6067cf994790f98c2ffd3e77ba6b075470452c0
+[I 08:21:54.968 NotebookApp] 302 GET /?token=c227d4a7f6067cf994790f98c2ffd3e77ba6b075470452c0 (127.0.0.1) 0.45ms
+[E 08:21:55.319 NotebookApp] Could not open static file ''
+[W 08:21:56.762 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (127.0.0.1) 37.29ms referer=http://localhost:8888/tree?token=c227d4a7f6067cf994790f98c2ffd3e77ba6b075470452c0
+[W 08:21:57.878 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (127.0.0.1) 0.97ms referer=http://localhost:8888/tree?token=c227d4a7f6067cf994790f98c2ffd3e77ba6b075470452c0
+[W 08:22:04.727 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (127.0.0.1) 1.95ms referer=http://localhost:8888/tree?token=c227d4a7f6067cf994790f98c2ffd3e77ba6b075470452c0
+[W 08:22:19.372 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (127.0.0.1) 2.22ms referer=http://localhost:8888/tree?token=c227d4a7f6067cf994790f98c2ffd3e77ba6b075470452c0
+[W 08:22:20.877 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (127.0.0.1) 0.97ms referer=http://localhost:8888/notebooks/ner_notebook.ipynb
+[W 08:22:23.304 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (127.0.0.1) 0.95ms referer=http://localhost:8888/notebooks/ner_notebook.ipynb
+[W 08:22:24.353 NotebookApp] Forbidden
+[W 08:22:24.354 NotebookApp] 403 GET /api/config/tree?_=1599628941960 (127.0.0.1) 0.50ms referer=http://localhost:8888/tree
+[W 08:22:24.418 NotebookApp] Forbidden
+[W 08:22:24.419 NotebookApp] 403 GET /api/config/common?_=1599628941961 (127.0.0.1) 0.52ms referer=http://localhost:8888/tree
+[W 08:22:24.688 NotebookApp] Forbidden
+[W 08:22:24.689 NotebookApp] 403 GET /api/terminals?_=1599628941962 (127.0.0.1) 0.45ms referer=http://localhost:8888/tree
+[W 08:22:24.758 NotebookApp] Forbidden
+[W 08:22:24.759 NotebookApp] 403 GET /api/kernelspecs (127.0.0.1) 0.48ms referer=http://localhost:8888/tree
+[W 08:22:24.883 NotebookApp] Forbidden
+[W 08:22:24.884 NotebookApp] 403 GET /api/sessions?_=1599628941963 (127.0.0.1) 0.48ms referer=http://localhost:8888/tree
+[W 08:22:24.968 NotebookApp] Forbidden
+[W 08:22:24.969 NotebookApp] 403 GET /api/terminals?_=1599628941964 (127.0.0.1) 0.44ms referer=http://localhost:8888/tree
+[W 08:22:30.938 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20200909082056 (127.0.0.1) 1.33ms referer=http://localhost:8888/notebooks/ner_notebook.ipynb
+[I 08:22:34.788 NotebookApp] Kernel started: 5f56ef00-4ffa-44a4-beb1-b869bc4bb11e
+[I 08:22:35.173 NotebookApp] Adapting from protocol version 5.1 (kernel 5f56ef00-4ffa-44a4-beb1-b869bc4bb11e) to 5.3 (client).
+[I 08:23:05.851 NotebookApp] Starting buffering for 5f56ef00-4ffa-44a4-beb1-b869bc4bb11e:5411adfbf4aa49cfb4e1b50361ff0f08

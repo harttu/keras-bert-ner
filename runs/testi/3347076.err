@@ -1,0 +1,40 @@
+WARNING: Logging before flag parsing goes to stderr.
+W0908 17:59:25.490964 139834734012224 deprecation.py:506] From /appl/soft/ai/miniconda3/envs/tensorflow-1.14.0/lib/python3.7/site-packages/tensorflow/python/keras/initializers.py:119: calling RandomUniform.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0908 17:59:26.079609 139834734012224 deprecation.py:506] From /appl/soft/ai/miniconda3/envs/tensorflow-1.14.0/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1288: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2020-09-08 17:59:31.562789: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+2020-09-08 17:59:31.569484: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2100000000 Hz
+2020-09-08 17:59:31.569739: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x557e3f8c6350 executing computations on platform Host. Devices:
+2020-09-08 17:59:31.569756: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-09-08 17:59:31.572045: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2020-09-08 17:59:31.617678: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: Tesla V100-SXM2-32GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+pciBusID: 0000:61:00.0
+2020-09-08 17:59:31.877996: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2020-09-08 17:59:35.114624: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2020-09-08 17:59:41.075340: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2020-09-08 17:59:41.492960: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2020-09-08 17:59:41.495819: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2020-09-08 17:59:42.091800: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2020-09-08 17:59:45.989738: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-09-08 17:59:45.996818: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-09-08 17:59:45.996867: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2020-09-08 17:59:46.132507: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-09-08 17:59:46.132537: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-09-08 17:59:46.132547: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-09-08 17:59:46.138104: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 30584 MB memory) -> physical GPU (device: 0, name: Tesla V100-SXM2-32GB, pci bus id: 0000:61:00.0, compute capability: 7.0)
+2020-09-08 17:59:46.140089: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x557e405ef050 executing computations on platform CUDA. Devices:
+2020-09-08 17:59:46.140106: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Tesla V100-SXM2-32GB, Compute Capability 7.0
+W0908 18:00:06.023931 139834734012224 deprecation_wrapper.py:119] From /users/htoivone/keras-bert-ner/bert/tokenization.py:125: The name tf.gfile.GFile is deprecated. Please use tf.io.gfile.GFile instead.
+
+Traceback (most recent call last):
+  File "/users/htoivone/keras-bert-ner/scripts/../ner_v2.py", line 93, in <module>
+    sys.exit(main(sys.argv))
+  File "/users/htoivone/keras-bert-ner/scripts/../ner_v2.py", line 60, in main
+    if args.early_stopping:
+AttributeError: 'Namespace' object has no attribute 'early_stopping'
+srun: error: r17g01: task 0: Exited with exit code 1
+srun: Terminating job step 3347076.0

@@ -1,0 +1,59 @@
+[I 11:12:07.798 NotebookApp] JupyterLab extension loaded from /appl/opt/anaconda3/2019.3/envs/default/lib/python3.7/site-packages/jupyterlab
+[I 11:12:07.799 NotebookApp] JupyterLab application directory is /appl/opt/anaconda3/2019.3/share/jupyter/lab
+[I 11:12:07.800 NotebookApp] Serving notebooks from local directory: /users/htoivone/keras-bert-ner
+[I 11:12:07.800 NotebookApp] The Jupyter Notebook is running at:
+[I 11:12:07.800 NotebookApp] http://localhost:8888/?token=9c4578f8f5d7906356d3952e31cc5a701e67f7a09424be17
+[I 11:12:07.800 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 11:12:07.826 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///users/htoivone/.local/share/jupyter/runtime/nbserver-36848-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=9c4578f8f5d7906356d3952e31cc5a701e67f7a09424be17
+[I 11:13:46.462 NotebookApp] 302 GET /?token=9c4578f8f5d7906356d3952e31cc5a701e67f7a09424be17 (127.0.0.1) 0.47ms
+[W 11:14:21.653 NotebookApp] Forbidden
+[W 11:14:21.653 NotebookApp] 403 GET /api/config/tree?_=1599552857882 (127.0.0.1) 0.76ms referer=http://localhost:8888/tree
+[W 11:14:21.808 NotebookApp] Forbidden
+[W 11:14:21.808 NotebookApp] 403 GET /api/config/common?_=1599552857883 (127.0.0.1) 0.53ms referer=http://localhost:8888/tree
+[W 11:14:22.058 NotebookApp] Forbidden
+[W 11:14:22.058 NotebookApp] 403 GET /api/terminals?_=1599552857884 (127.0.0.1) 0.46ms referer=http://localhost:8888/tree
+[W 11:14:22.103 NotebookApp] Forbidden
+[W 11:14:22.103 NotebookApp] 403 GET /api/kernelspecs (127.0.0.1) 0.49ms referer=http://localhost:8888/tree
+[W 11:14:22.298 NotebookApp] Forbidden
+[W 11:14:22.298 NotebookApp] 403 GET /api/sessions?_=1599552857885 (127.0.0.1) 0.50ms referer=http://localhost:8888/tree
+[W 11:14:22.358 NotebookApp] Forbidden
+[W 11:14:22.358 NotebookApp] 403 GET /api/terminals?_=1599552857886 (127.0.0.1) 0.45ms referer=http://localhost:8888/tree
+[I 11:15:03.317 NotebookApp] Creating new notebook in 
+[I 11:15:03.625 NotebookApp] Writing notebook-signing key to /users/htoivone/.local/share/jupyter/notebook_secret
+[I 11:15:29.233 NotebookApp] Kernel started: 5363b64f-abdf-41d3-a3bd-01a6e1d19484
+[I 11:15:31.709 NotebookApp] Adapting to protocol v5.1 for kernel 5363b64f-abdf-41d3-a3bd-01a6e1d19484
+[I 11:17:29.758 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:19:29.367 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:23:29.479 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:27:29.136 NotebookApp] Saving file at /Untitled.ipynb
+[W 12:51:31.896 NotebookApp] 404 GET /api/contents/ner_notebook.ipynb?type=notebook&content=0&_=1599552916741 (127.0.0.1): No such file or directory: ner_notebook.ipynb
+[W 12:51:31.972 NotebookApp] No such file or directory: ner_notebook.ipynb
+[W 12:51:32.593 NotebookApp] 404 GET /api/contents/ner_notebook.ipynb?type=notebook&content=0&_=1599552916741 (127.0.0.1) 5095.39ms referer=http://localhost:8888/notebooks/Untitled.ipynb?kernel_name=python3
+[W 12:51:32.894 NotebookApp] 404 GET /api/contents/ner_notebook.ipynb?type=notebook&content=0&_=1599552916742 (127.0.0.1): No such file or directory: ner_notebook.ipynb
+[W 12:51:32.894 NotebookApp] No such file or directory: ner_notebook.ipynb
+[W 12:51:32.895 NotebookApp] 404 GET /api/contents/ner_notebook.ipynb?type=notebook&content=0&_=1599552916742 (127.0.0.1) 4.77ms referer=http://localhost:8888/notebooks/Untitled.ipynb?kernel_name=python3
+[I 12:51:32.935 NotebookApp] Uploading file to /ner_notebook.ipynb
+[I 12:51:33.916 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 13:26:55.262 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 13:26:55.351 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 13:26:55.496 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 13:26:55.776 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 13:26:55.954 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 13:26:56.107 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 13:26:56.260 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 13:26:56.406 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 13:26:57.942 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 13:26:58.091 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 13:26:58.225 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 13:26:58.309 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 13:26:58.432 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 13:26:58.554 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 13:26:58.782 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 13:26:58.898 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 13:26:59.057 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 15:11:13.589 NotebookApp] Starting buffering for 5363b64f-abdf-41d3-a3bd-01a6e1d19484:0ba42ed19a7a4c538c3ec8436d9a02e0

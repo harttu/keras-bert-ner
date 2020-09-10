@@ -1,0 +1,159 @@
+Script started on Tue 08 Sep 2020 03:12:26 PM EEST
+]0;htoivone@puhti-login2:~/keras-bert-ner[?1034h[htoivone@puhti-login2 keras-bert-ner]$ ls
+begin.bash  compare.py	  data		       LICENSE	ner-models	    ner_v2.py	 README.md	   serve.py	   start.bash		Untitled.ipynb
+bert	    config.py	  JOBGEN	       logs	ner_notebook.ipynb  predict.py	 requirements.txt  slurm	   template_parser.awk	venv
+common.py   conlleval.py  jupyter.3344970.out  models	ner.py		    __pycache__  scripts	   slurm.template  typescript
+]0;htoivone@puhti-login2:~/keras-bert-ner[htoivone@puhti-login2 keras-bert-ner]$ ls
+begin.bash  compare.py	  data		       LICENSE	ner-models	    ner_v2.py	 README.md	   serve.py	   start.bash		Untitled.ipynb
+bert	    config.py	  JOBGEN	       logs	ner_notebook.ipynb  predict.py	 requirements.txt  slurm	   template_parser.awk	venv
+common.py   conlleval.py  jupyter.3344970.out  models	ner.py		    __pycache__  scripts	   slurm.template  typescript
+]0;htoivone@puhti-login2:~/keras-bert-ner[htoivone@puhti-login2 keras-bert-ner]$ lssinteractive --account project_2001426 start-jupyter-server[35@ount project_2001426 --time 12:00:00 --mem 8000 -mtp 100[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[35Pcount project_2001426[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K[Kls
+begin.bash  compare.py	  data		       LICENSE	ner-models	    ner_v2.py	 README.md	   serve.py	   start.bash		Untitled.ipynb
+bert	    config.py	  JOBGEN	       logs	ner_notebook.ipynb  predict.py	 requirements.txt  slurm	   template_parser.awk	venv
+common.py   conlleval.py  jupyter.3344970.out  models	ner.py		    __pycache__  scripts	   slurm.template  typescript
+]0;htoivone@puhti-login2:~/keras-bert-ner[htoivone@puhti-login2 keras-bert-ner]$ cd slurm
+]0;htoivone@puhti-login2:~/keras-bert-ner/slurm[htoivone@puhti-login2 slurm]$ ls
+run-dev.sh  run-parameter-grid.sh  select_params.py  slurm.template  summarize.py
+]0;htoivone@puhti-login2:~/keras-bert-ner/slurm[htoivone@puhti-login2 slurm]$ cd ..
+]0;htoivone@puhti-login2:~/keras-bert-ner[htoivone@puhti-login2 keras-bert-ner]$ cd scripts/
+]0;htoivone@puhti-login2:~/keras-bert-ner/scripts[htoivone@puhti-login2 scripts]$ ls
+get-finer.sh   get-turku-ner.sh  predict-finer-news.sh	predict-turku-ner.sh  run-finer-news.sh  run-ner2-early-stop.sh  run-turku-ner.sh  slurm-run-gputest.sh  slurm-run.sh
+get-models.sh  predict-bc2gm.sh  predict-s800.sh	run-bc2gmBU.sh	      run-JOBGEN.sh	 run-ner2.sh		 slurm-gen.awk	   slurm-run-JOBGEN.sh
+]0;htoivone@puhti-login2:~/keras-bert-ner/scripts[htoivone@puhti-login2 scripts]$ cd run-ner2.sh [K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat run-ner22[K.sh 
+#!/bin/bash
+
+# Run on Turku NER corpus data
+
+# https://stackoverflow.com/a/246128
+SCRIPTDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+set -euo pipefail
+
+if [ $# -lt 5 ]; then
+	echo "Not aleast 4 arguments were given."
+	echo "Got:$@"
+	exit 1
+fi
+
+comment="Generic ner run"
+if [ $# -eq 6 ];then
+	comment="$6"
+fi
+
+batch_size="$2"
+#8
+learning_rate="$3"
+#5e-5
+max_seq_length="$4"
+#128
+epochs="$5"
+#2
+
+datadir="$SCRIPTDIR/../data/AnatEM-1.0.2/conll_single_class/"
+train_data="$datadir/train.tsv"
+test_data="$datadir/test.tsv"
+ner_model_dir="$SCRIPTDIR/../ner-models/turku-ner2-model"
+
+#modeldir="$SCRIPTDIR/../models/bert-base-finnish-cased-v1"
+modeldir="$1"
+model="$modeldir/bert_model.ckpt"
+vocab="$modeldir/vocab.txt"
+config="$modeldir/bert_config.json"
+
+echo "BC2GM script with the following parameters:"
+echo "Arguments:$@"
+echo "modeldir:$modeldir"
+echo "batch_size:$batch_size"
+echo "learning rate:$learning_rate"
+echo "max seq length:$max_seq_length"
+echo "epochs:$epochs"
+echo "comment:$comment"
+
+if [ ! -e "$datadir" ]; then
+    echo "Data not found (run scripts/get-turku-ner.sh?)" >&2
+    exit 1
+fi
+
+if [ ! -e "$modeldir" ]; then
+    echo "Model not found (run scripts/get-models.sh?)" >&2
+    exit 1
+fi
+
+rm -rf "$ner_model_dir"
+mkdir -p "$ner_model_dir"
+
+python "$SCRIPTDIR/../ner_v2.py" \
+    --vocab_file "$vocab" \
+    --bert_config_file "$config" \
+    --init_checkpoint "$model" \
+    --learning_rate $learning_rate \
+    --num_train_epochs $epochs \
+    --max_seq_length $max_seq_length \
+    --batch_size $batch_size \
+    --train_data "$train_data" \
+    --test_data "$test_data" \
+    --ner_model_dir "$ner_model_dir" \
+]0;htoivone@puhti-login2:~/keras-bert-ner/scripts[htoivone@puhti-login2 scripts]$ ls
+get-finer.sh   get-turku-ner.sh  predict-finer-news.sh	predict-turku-ner.sh  run-finer-news.sh  run-ner2-early-stop.sh  run-turku-ner.sh  slurm-run-gputest.sh  slurm-run.sh
+get-models.sh  predict-bc2gm.sh  predict-s800.sh	run-bc2gmBU.sh	      run-JOBGEN.sh	 run-ner2.sh		 slurm-gen.awk	   slurm-run-JOBGEN.sh
+]0;htoivone@puhti-login2:~/keras-bert-ner/scripts[htoivone@puhti-login2 scripts]$ c[Kcat slurm-run-JOBGEN.sh 
+#!/bin/bash
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32G
+#SBATCH -p gpu
+#SBATCH -t 03:00:00
+#SBATCH --gres=gpu:v100:1
+#SBATCH --ntasks-per-node=1
+#SBATCH --account=Project_2001426
+#SBATCH -o logs/%j.out
+#SBATCH -e logs/%j.err
+
+rm -f logs/latest.out logs/latest.err
+ln -s $SLURM_JOBID.out logs/latest.out
+ln -s $SLURM_JOBID.err logs/latest.err
+
+if [ "$#" -lt 1 ]; then
+    echo "Usage: $0 SCRIPT [ARG[...]]" >&2
+    exit 1
+fi
+
+script=$1
+shift
+
+module purge
+module load tensorflow
+#module load python-data
+#source $HOME/venv/keras-bert/bin/activate
+source venv/bin/activate
+
+export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
+
+echo "START $SLURM_JOBID ($script): $(date)"
+
+srun "$script" "$@"
+
+echo "END $SLURM_JOBID ($script): $(date)"
+
+seff $SLURM_JOBID
+]0;htoivone@puhti-login2:~/keras-bert-ner/scripts[htoivone@puhti-login2 scripts]$ cd ..
+]0;htoivone@puhti-login2:~/keras-bert-ner[htoivone@puhti-login2 keras-bert-ner]$ module purge
+]0;htoivone@puhti-login2:~/keras-bert-ner[htoivone@puhti-login2 keras-bert-ner]$ module load tensorflow
+]0;htoivone@puhti-login2:~/keras-bert-ner[htoivone@puhti-login2 keras-bert-ner]$ source vene[Kv/bin/activate
+]0;htoivone@puhti-login2:~/keras-bert-ner(venv) [htoivone@puhti-login2 keras-bert-ner]$ source venv/bin/activate[2Pmodule load tensorflow[10Ppurge[7Pcd ..at slurm-run-JOBGEN.sh ls[Kcat run-ner2.sh ls[Kcd scripts/..[K[3Plscd slurmls[Ksinteractive --account project_2001426 start-jupyter-server[35@ount project_2001426 --time 12:00:00 --mem 8000 -mtp 100[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[35Pcount project_2001426[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Ksinteractive --account project_2001426 start-jupyter-server
+
+Interactive batch job is launched with following resources:
+  Maximum run time (hours:min:sec): 24:00:00
+  Maximum memory (MB): 1000 
+  $TMPDIR size (GB): 32 
+  Number of cores/threads: 1 
+  Accounting project: project_2001426
+ 
+srun: job 3346906 queued and waiting for resources
+srun: job 3346906 has been allocated resources
+srun: error: x11: no local DISPLAY defined, skipping
+
+    Copy/Paste this in your local terminal to ssh tunnel with remote
+    -----------------------------------------------------------------
+ 

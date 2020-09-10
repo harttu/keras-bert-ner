@@ -1,0 +1,41 @@
+[I 10:43:40.794 NotebookApp] The port 8888 is already in use, trying another port.
+[I 10:43:41.069 NotebookApp] JupyterLab extension loaded from /appl/soft/ai/miniconda3/envs/tensorflow-1.14.0/lib/python3.7/site-packages/jupyterlab
+[I 10:43:41.069 NotebookApp] JupyterLab application directory is /appl/soft/ai/miniconda3/envs/tensorflow-1.14.0/share/jupyter/lab
+[I 10:43:41.071 NotebookApp] Serving notebooks from local directory: /users/htoivone/keras-bert-ner
+[I 10:43:41.071 NotebookApp] The Jupyter Notebook is running at:
+[I 10:43:41.071 NotebookApp] http://localhost:8889/?token=330f48a3b7c0471ed4f7c61f051b59d49f84a7b2e49bff4f
+[I 10:43:41.071 NotebookApp]  or http://127.0.0.1:8889/?token=330f48a3b7c0471ed4f7c61f051b59d49f84a7b2e49bff4f
+[I 10:43:41.071 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 10:43:41.076 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///users/htoivone/.local/share/jupyter/runtime/nbserver-61628-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=330f48a3b7c0471ed4f7c61f051b59d49f84a7b2e49bff4f
+     or http://127.0.0.1:8889/?token=330f48a3b7c0471ed4f7c61f051b59d49f84a7b2e49bff4f
+[I 10:44:24.036 NotebookApp] 302 GET /?token=330f48a3b7c0471ed4f7c61f051b59d49f84a7b2e49bff4f (127.0.0.1) 0.47ms
+[E 10:44:24.285 NotebookApp] Could not open static file ''
+[W 10:44:27.643 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (127.0.0.1) 6.93ms referer=http://localhost:8889/tree?token=330f48a3b7c0471ed4f7c61f051b59d49f84a7b2e49bff4f
+[W 10:44:30.956 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (127.0.0.1) 1.31ms referer=http://localhost:8889/tree?token=330f48a3b7c0471ed4f7c61f051b59d49f84a7b2e49bff4f
+[W 10:45:13.722 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (127.0.0.1) 1.09ms referer=http://localhost:8889/notebooks/ner_notebook.ipynb
+[W 10:45:15.797 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (127.0.0.1) 1.23ms referer=http://localhost:8889/notebooks/ner_notebook.ipynb
+[W 10:45:27.434 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20200909104338 (127.0.0.1) 1.79ms referer=http://localhost:8889/notebooks/ner_notebook.ipynb
+[I 10:45:31.170 NotebookApp] Kernel started: 430e456f-ba7e-4c4d-a1b0-aa147fb034dc
+[I 10:45:33.049 NotebookApp] Adapting from protocol version 5.1 (kernel 430e456f-ba7e-4c4d-a1b0-aa147fb034dc) to 5.3 (client).
+[W 10:47:04.067 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (127.0.0.1) 2.69ms referer=http://localhost:8889/tree?token=330f48a3b7c0471ed4f7c61f051b59d49f84a7b2e49bff4f
+[W 10:47:05.030 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (127.0.0.1) 1.25ms referer=http://localhost:8889/tree?token=330f48a3b7c0471ed4f7c61f051b59d49f84a7b2e49bff4f
+[W 10:47:08.716 NotebookApp] Forbidden
+[W 10:47:08.716 NotebookApp] 403 GET /api/config/tree?_=1599637626619 (127.0.0.1) 0.77ms referer=http://localhost:8889/tree
+[W 10:47:08.760 NotebookApp] Forbidden
+[W 10:47:08.761 NotebookApp] 403 GET /api/config/common?_=1599637626620 (127.0.0.1) 0.63ms referer=http://localhost:8889/tree
+[W 10:47:08.820 NotebookApp] Forbidden
+[W 10:47:08.821 NotebookApp] 403 GET /api/terminals?_=1599637626621 (127.0.0.1) 0.56ms referer=http://localhost:8889/tree
+[W 10:47:08.864 NotebookApp] Forbidden
+[W 10:47:08.864 NotebookApp] 403 GET /api/kernelspecs (127.0.0.1) 0.55ms referer=http://localhost:8889/tree
+[W 10:47:08.911 NotebookApp] Forbidden
+[W 10:47:08.911 NotebookApp] 403 GET /api/sessions?_=1599637626622 (127.0.0.1) 0.74ms referer=http://localhost:8889/tree
+[W 10:47:08.911 NotebookApp] Forbidden
+[W 10:47:08.911 NotebookApp] 403 GET /api/terminals?_=1599637626623 (127.0.0.1) 0.86ms referer=http://localhost:8889/tree
+[I 10:47:31.431 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 10:51:31.505 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 10:53:29.260 NotebookApp] Starting buffering for 430e456f-ba7e-4c4d-a1b0-aa147fb034dc:6297448f033f4cf5886252dd6080d2d1

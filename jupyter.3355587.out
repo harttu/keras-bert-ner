@@ -1,0 +1,15 @@
+[I 14:31:26.104 NotebookApp] The port 8888 is already in use, trying another port.
+[I 14:31:26.153 NotebookApp] JupyterLab extension loaded from /appl/soft/ai/miniconda3/envs/tensorflow-1.14.0/lib/python3.7/site-packages/jupyterlab
+[I 14:31:26.153 NotebookApp] JupyterLab application directory is /appl/soft/ai/miniconda3/envs/tensorflow-1.14.0/share/jupyter/lab
+[I 14:31:26.155 NotebookApp] Serving notebooks from local directory: /users/htoivone/keras-bert-ner
+[I 14:31:26.155 NotebookApp] The Jupyter Notebook is running at:
+[I 14:31:26.155 NotebookApp] http://localhost:8889/?token=1fc72e5ce74cb0a3516578f75f6e62ef1346cec963d2dafc
+[I 14:31:26.155 NotebookApp]  or http://127.0.0.1:8889/?token=1fc72e5ce74cb0a3516578f75f6e62ef1346cec963d2dafc
+[I 14:31:26.155 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 14:31:26.160 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///users/htoivone/.local/share/jupyter/runtime/nbserver-92380-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=1fc72e5ce74cb0a3516578f75f6e62ef1346cec963d2dafc
+     or http://127.0.0.1:8889/?token=1fc72e5ce74cb0a3516578f75f6e62ef1346cec963d2dafc

@@ -1,0 +1,34 @@
+START 3347076 (scripts/run-JOBGEN.sh): Tue Sep  8 17:58:42 EEST 2020
+BC2GM script with the following parameters:
+###########################################
+time: Tue Sep 8 17:58:42 EEST 2020
+Arguments: 
+datadir: /users/htoivone/keras-bert-ner/scripts/../data/GELLUS-1.0.3/conll/standard/
+traindata: /users/htoivone/keras-bert-ner/scripts/../data/GELLUS-1.0.3/conll/standard//train.tsv
+testdata: /users/htoivone/keras-bert-ner/scripts/../data/GELLUS-1.0.3/conll/standard//test.tsv
+init. modeldir: /scratch/project_2001426/models/biobert_v1.1_pubmed_std_naming
+checkpoint modeldir:/users/htoivone/keras-bert-ner/scripts/../ner-models/testi_1
+batch_size: 4
+learning rate: 5e-5
+max seq length: 256
+epochs: 3
+early stopping:false
+comment: testi
+saving in: /users/htoivone/keras-bert-ner/scripts/../ner-models/testi_1
+Now training:
+END 3347076 (scripts/run-JOBGEN.sh): Tue Sep  8 18:00:13 EEST 2020
+Job ID: 3347076
+Cluster: puhti
+User/Group: htoivone/htoivone
+State: RUNNING
+Cores: 1
+CPU Utilized: 00:00:33
+CPU Efficiency: 35.11% of 00:01:34 core-walltime
+Job Wall-clock time: 00:01:34
+Memory Utilized: 1.64 GB
+Memory Efficiency: 10.27% of 16.00 GB
+Job consumed 1.63 CSC billing units based on following used resources
+CPU BU: 0.03
+Mem BU: 0.04
+GPU BU: 1.57
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

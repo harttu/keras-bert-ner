@@ -89,6 +89,12 @@ def argument_parser(mode='train'):
         '--viterbi', default=False, action='store_true',
         help='Viterbi decoding when predicting'
     )
+    argparser.add_argument(
+        '--early_stopping', default=False,action='store_true',
+        help='Use early stopping'
+    )
+
+
     return argparser
 
 

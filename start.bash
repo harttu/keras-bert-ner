@@ -29,17 +29,17 @@ Data[anatEMSingleConll2]="/data/AnatEM-1.0.2/conll2_single_class"
 #datadir=${Data[chemdner]}
 #datadir=${Data[linnaeus_devtraincombined]}
 #datadir=${Data[bc2gmwide]}
-#datadir=${Data[gellus]}
+datadir=${Data[gellus]}
 #datadir=${Data[anatEM]}
 #datadir=${Data[anatEMSingle]}
 #datadir=${Data[ncbi]}
-datadir=${Data[s800_conll2]}
+#datadir=${Data[s800_conll2]}
 #datadir=${Data[anatEMSingleConll2]}
 
 declare -A Models;
-Models[biobert_large]=/scratch/project_2001426/models/biobert_large 
+#Models[biobert_large]=/scratch/project_2001426/models/biobert_large 
 #Models[NCBI_uncased_L12]=/scratch/project_2001426/models/NCBI_BERT_pubmed_uncased_L-12_H-768_A-12
-#Models[biobert_pubmed]=/scratch/project_2001426/models/biobert_v1.1_pubmed_std_naming
+Models[biobert_pubmed]=/scratch/project_2001426/models/biobert_v1.1_pubmed_std_naming
 #Models[scibert_uncased]=/scratch/project_2001426/models/scibert_scivocab_uncased
 #Models[scibert_cased]=/scratch/project_2001426/models/scibert_scivocab_cased
 #Models[biobert_pubmed_pmc]=/scratch/project_2001426/models/biobert_v1.0_pubmed_pmc
@@ -70,7 +70,8 @@ read comment
 #SlurmSetup[L]="gpu 16G 05:30:00 $comment"
 #SlurmSetup[N]="gpu 16G 02:30:00 $comment"
 
-repeats_arr=(1 2 3 4)
+repeats_arr=(1)
+# 2 3 4)
 epochs_arr=(3)
 max_seq_len_arr=(256)
 #(128 192 256 288 320 356)

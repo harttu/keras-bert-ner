@@ -15,12 +15,13 @@ from common import save_ner_model, save_viterbi_probabilities
 
 
 def main(argv):
+    print(argv)
     argparser = argument_parser()
     args = argparser.parse_args(argv[1:])
     seq_len = args.max_seq_length    # abbreviation
 
     #print(args)
-    #exit(1)
+    exit(0)
     pretrained_model, tokenizer = load_pretrained(args)
 
     train_words, train_tags = read_conll(args.train_data)

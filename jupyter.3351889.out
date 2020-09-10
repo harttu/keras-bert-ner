@@ -1,0 +1,53 @@
+[I 08:25:41.227 NotebookApp] JupyterLab extension loaded from /appl/soft/ai/miniconda3/envs/tensorflow-1.14.0/lib/python3.7/site-packages/jupyterlab
+[I 08:25:41.227 NotebookApp] JupyterLab application directory is /appl/soft/ai/miniconda3/envs/tensorflow-1.14.0/share/jupyter/lab
+[I 08:25:41.229 NotebookApp] Serving notebooks from local directory: /users/htoivone/keras-bert-ner
+[I 08:25:41.229 NotebookApp] The Jupyter Notebook is running at:
+[I 08:25:41.229 NotebookApp] http://localhost:8888/?token=1b18de9b56f386a8512e1e200822e2d614855cfae42961fc
+[I 08:25:41.229 NotebookApp]  or http://127.0.0.1:8888/?token=1b18de9b56f386a8512e1e200822e2d614855cfae42961fc
+[I 08:25:41.229 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 08:25:41.234 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///users/htoivone/.local/share/jupyter/runtime/nbserver-47129-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=1b18de9b56f386a8512e1e200822e2d614855cfae42961fc
+     or http://127.0.0.1:8888/?token=1b18de9b56f386a8512e1e200822e2d614855cfae42961fc
+[I 08:26:15.520 NotebookApp] 302 GET /?token=1b18de9b56f386a8512e1e200822e2d614855cfae42961fc (127.0.0.1) 0.47ms
+[E 08:26:15.795 NotebookApp] Could not open static file ''
+[I 08:26:15.848 NotebookApp] Saving file at /ner_notebook.ipynb
+[W 08:26:16.525 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (127.0.0.1) 5.95ms referer=http://localhost:8888/tree?token=1b18de9b56f386a8512e1e200822e2d614855cfae42961fc
+[W 08:26:16.975 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (127.0.0.1) 0.97ms referer=http://localhost:8888/tree?token=1b18de9b56f386a8512e1e200822e2d614855cfae42961fc
+[W 08:26:26.640 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (127.0.0.1) 0.99ms referer=http://localhost:8888/notebooks/ner_notebook.ipynb
+[W 08:26:27.633 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (127.0.0.1) 0.96ms referer=http://localhost:8888/notebooks/ner_notebook.ipynb
+[I 08:26:34.763 NotebookApp] Kernel started: ac17ba5f-b4ae-4bd8-b9f4-1df1ac58496f
+[I 08:26:35.351 NotebookApp] Adapting from protocol version 5.1 (kernel ac17ba5f-b4ae-4bd8-b9f4-1df1ac58496f) to 5.3 (client).
+[W 08:26:35.593 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20200909082539 (127.0.0.1) 1.49ms referer=http://localhost:8888/notebooks/ner_notebook.ipynb
+[W 08:27:04.632 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (127.0.0.1) 1.24ms referer=http://localhost:8888/tree?token=1b18de9b56f386a8512e1e200822e2d614855cfae42961fc
+[W 08:27:06.040 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (127.0.0.1) 0.95ms referer=http://localhost:8888/tree?token=1b18de9b56f386a8512e1e200822e2d614855cfae42961fc
+[W 08:27:08.660 NotebookApp] Forbidden
+[W 08:27:08.660 NotebookApp] 403 GET /api/config/tree?_=1599629226835 (127.0.0.1) 0.53ms referer=http://localhost:8888/tree
+[W 08:27:08.700 NotebookApp] Forbidden
+[W 08:27:08.700 NotebookApp] 403 GET /api/config/common?_=1599629226836 (127.0.0.1) 0.49ms referer=http://localhost:8888/tree
+[W 08:27:08.840 NotebookApp] Forbidden
+[W 08:27:08.840 NotebookApp] 403 GET /api/terminals?_=1599629226837 (127.0.0.1) 0.46ms referer=http://localhost:8888/tree
+[W 08:27:08.895 NotebookApp] Forbidden
+[W 08:27:08.895 NotebookApp] 403 GET /api/kernelspecs (127.0.0.1) 0.49ms referer=http://localhost:8888/tree
+[W 08:27:08.935 NotebookApp] Forbidden
+[W 08:27:08.935 NotebookApp] 403 GET /api/sessions?_=1599629226838 (127.0.0.1) 0.49ms referer=http://localhost:8888/tree
+[W 08:27:08.974 NotebookApp] Forbidden
+[W 08:27:08.975 NotebookApp] 403 GET /api/terminals?_=1599629226839 (127.0.0.1) 0.45ms referer=http://localhost:8888/tree
+[I 08:28:34.900 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 08:30:34.922 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 08:32:35.085 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 08:34:35.071 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 08:36:35.035 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 08:38:35.000 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 08:40:35.056 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 08:42:35.075 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 08:44:35.007 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 09:04:35.066 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 09:06:34.996 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 09:08:35.641 NotebookApp] Saving file at /ner_notebook.ipynb
+[I 09:34:35.026 NotebookApp] Saving file at /ner_notebook.ipynb
+[W 09:53:35.353 NotebookApp] WebSocket ping timeout after 119961 ms.
+[I 09:53:40.357 NotebookApp] Starting buffering for ac17ba5f-b4ae-4bd8-b9f4-1df1ac58496f:630e646234174f39b5c2e78726bba1af
